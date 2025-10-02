@@ -45,6 +45,6 @@ public class Main {
                 .filter(employee -> employee.getName().charAt(0) == 'M')
                 .mapToDouble(Employee::getSalary).sum();
 
-        System.out.printf("Sum of salary of people whoe name starts with 'M': %.2f", sum);
+        System.out.printf("Sum of salary of people whose name starts with 'M': %.2f", sum);
     }
 }
